@@ -11,4 +11,8 @@ public class SimpleJava {
 		System.out.println("Hello");
 		System.out.println("HelloWorld");
 	}
+	
+	public static void printMsg (String msg) {		
+		System.out.println(msg);
+	}
 }
