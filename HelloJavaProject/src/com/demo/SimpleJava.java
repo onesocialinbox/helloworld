@@ -7,6 +7,7 @@ public class SimpleJava {
 	public static void main(String[] args) {
 		printMsg();
 		currentDate();
+		currentTime();
 	}
 
 	public static void printMsg () {
@@ -21,5 +22,9 @@ public class SimpleJava {
 	public static void currentDate() {
 		System.out.println("Added some useful method which presents current date" + new Date());
 		
+	}
+	
+	public static void currentTime() {
+		System.out.println("Prints current time in milliseconds" + System.currentTimeMillis());
 	}
 }
