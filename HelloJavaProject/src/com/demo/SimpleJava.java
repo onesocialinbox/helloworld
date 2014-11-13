@@ -6,7 +6,7 @@ public class SimpleJava {
 	
 	public static void main(String[] args) {
 		printMsg();
-		usefulMethod();
+		currentDate();
 	}
 
 	public static void printMsg () {
@@ -18,7 +18,7 @@ public class SimpleJava {
 		System.out.println(msg);
 	}
 	
-	public static void usefulMethod() {
+	public static void currentDate() {
 		System.out.println("Added some useful method which presents current date" + new Date());
 		
 	}
