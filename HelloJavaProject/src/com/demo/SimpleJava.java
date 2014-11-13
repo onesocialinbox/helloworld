@@ -6,7 +6,6 @@ public class SimpleJava {
 		printMsg();
 	}
 
-
 	public static void printMsg () {
 		System.out.println("Hello");
 		System.out.println("HelloWorld");
